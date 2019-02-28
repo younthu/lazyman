@@ -32,7 +32,6 @@ template = Template(
 
 
 # 定制[]里面的内容即可, 注意('阿牛哥', '小丽') 是一对变量，需要用括号括起来。
-
 for from_to in [('阿牛哥', '小丽'), ('哥哥', '弟弟小勇'), ('爸爸', '女儿'), ('杨白劳','冯老板')]:
     print(template.render(_from=from_to[0], to=from_to[1]))
     print("") # 打印空行
